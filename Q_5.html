@@ -1,0 +1,25 @@
+<script type="text/javascript">
+    var a = parseInt(prompt("Enter Enter any value A :- "))
+    var b = parseInt(prompt("Enter Enter any value B :- "))
+    alert("press + to sum... || press - to min... || press * to mul... || press / to div...")
+    var choice = prompt("Enter your choice :- ")
+    function check() {
+        switch (choice) {
+            case '+':
+                console.log(a + b);
+                break;
+            case '-':
+                console.log(a - b);
+                break;
+            case '*':
+                console.log(a * b);
+                break;
+            case '/':
+                console.log(a / b);
+                break;
+            default:
+                console.log("invaid choice");
+        }
+    }
+    check()
+</script>

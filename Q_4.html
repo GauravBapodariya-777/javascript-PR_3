@@ -1,0 +1,39 @@
+<script type="text/javascript">
+    var a = parseInt(prompt("Enter value of A :- "))
+    var b = parseInt(prompt("Enter value of B :- "))
+    var c = parseInt(prompt("Enter value of C :- "))
+    var d = parseInt(prompt("Enter value of D :- "))
+    
+    function check(a, b, c, d){
+        if(a>b){
+            if(a>c){
+                if(a>d){
+                    console.log("A is big");
+                }else{
+                    console.log("D is big");
+                }
+            }else{
+                if(c>d){
+                    console.log("C is big");
+                }else{
+                    console.log("D is big");
+                }
+            }
+        }else{
+            if(b>c){
+                if(b>d){
+                    console.log("B is big");
+                }else{
+                    console.log("D is big");
+                }
+            }else{
+                if(c>d){
+                    console.log("C is big");
+                }else{
+                    console.log("D is big");
+                }
+            }
+        }
+    }
+    check(a, b, c, d)
+</script>
